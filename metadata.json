@@ -1,0 +1,8 @@
+{
+  "name": "Earlybuild.ai - AI Proptech Showcase",
+  "description": "A high-conversion, glassy proptech landing page modeled after TestFit.io, featuring AI-driven feasibility analysis for the German real estate market.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
