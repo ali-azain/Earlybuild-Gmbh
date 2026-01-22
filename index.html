@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earlybuild | Intelligente Projektentwicklung</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --early-green: #28C263;
+            --early-mint: #B8E6D9;
+            --early-dark-blue: #003E6B;
+            --early-text: #4A5568;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #ffffff;
+            color: var(--early-text);
+            overflow-x: hidden;
+        }
+        .heading-blue { color: var(--early-dark-blue); }
+        .bg-mint { background-color: var(--early-mint); }
+        .text-early-green { color: var(--early-green); }
+        .bg-early-green { background-color: var(--early-green); }
+        
+        /* Architectural Blueprint Effect */
+        .hero-bg {
+            background-color: #f8fafc;
+            background-image: 
+                linear-gradient(rgba(0, 62, 107, 0.05) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(0, 62, 107, 0.05) 1px, transparent 1px);
+            background-size: 40px 40px;
+        }
+
+        .btn-early {
+            background-color: var(--early-green);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            font-weight: 600;
+            display: inline-flex;
+            items-center;
+            gap: 12px;
+            transition: all 0.2s;
+        }
+        .btn-early:hover {
+            filter: brightness(1.1);
+        }
+        .btn-early .icon-circle {
+            background: white;
+            border-radius: 50%;
+            width: 24px;
+            height: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--early-green);
+        }
+
+        .btn-outline-early {
+            border: 1px solid var(--early-dark-blue);
+            color: var(--early-dark-blue);
+            padding: 0.5rem 1.25rem;
+            border-radius: 9999px;
+            font-weight: 600;
+            font-size: 0.875rem;
+            display: inline-flex;
+            items-center;
+            gap: 8px;
+            transition: all 0.2s;
+        }
+        .btn-outline-early:hover {
+            background-color: rgba(0, 62, 107, 0.05);
+        }
+
+        /* Form styling */
+        .form-input {
+            background: rgba(255, 255, 255, 0.6);
+            border: none;
+            border-bottom: 1px solid rgba(0,0,0,0.1);
+            padding: 1rem 0;
+            width: 100%;
+            font-size: 0.875rem;
+        }
+        .form-input:focus {
+            outline: none;
+            border-bottom: 1px solid var(--early-green);
+        }
+
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #f1f1f1; }
+        ::-webkit-scrollbar-thumb { background: var(--early-mint); border-radius: 4px; }
+    </style>
+
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react-icons/": "https://esm.sh/react-icons@^5.5.0/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.38.0"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/Earlybuild-Gmbh/assets/index-BpNL55gg.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+</body>
+</html>
